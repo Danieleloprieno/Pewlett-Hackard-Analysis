@@ -15,9 +15,10 @@ This analysis was conducted in order to inform hiring and promotion at Pewlett H
 ![Table 1: Count of Anticipated Retirees by Title](/Retiring_Count.png)
 
 - While the potential for mentorship exisits, it's roughly 1/10th of the size of the loss anticpiated. To this end, it would be beneficial to increase staffing at all levels immediately.  See chart below for the total number of current staff of mentoriship tenure in different roles.
-![Table 2:Count of Employees Eligible for Mentorship] (/Mentorship_Table.png)
+![Table 2: Count of Employees Eligible for Mentorship by Title](/Mentorship_Table.png)
 
- - While traditional employee recruiting efforts continue to be successful, the rise of social media and information technology have increased teh efficacy of employee referrals.  Based on the analyses conducted thusfar, we recommend Pewlett Hackard reinvest in their employee referral program by increasing the honoraria for successful employee referrals.  Additionally, outreach to employees encouraging referrals should be strategic, and target those who joined the company in the past 30 years. To this end, we have produced a query of employees hired in teh past 30 years for contacting.  It is our hope that targeting this select group of 135,227 employees, we can increase the pace at which these roles can be filled.  The list of employees to target can be found here:
- [Link to Employees to Target] (/Data/employee_list.csv)
+ - While traditional employee recruiting efforts continue to be successful, the rise of social media and information technology have increased teh efficacy of employee referrals.  Based on the analyses conducted thusfar, we recommend Pewlett Hackard reinvest in their employee referral program by increasing the honoraria for successful employee referrals.  Additionally, outreach to employees encouraging referrals should be strategic, and target those who joined the company in the past 30 years. To this end, we have produced a query of employees hired in teh past 30 years for contacting.  It is our hope that targeting this select group of 135,227 employees, we can increase the pace at which these roles can be filled.  
+
+The list of employees to target can be found here:[Link to Employees to Target] (/Data/employee_list.csv)
 
 
