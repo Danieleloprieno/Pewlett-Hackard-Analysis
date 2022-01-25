@@ -1,4 +1,4 @@
--- Deliverable 1, Part 1: Create retirement table
+-- Deliverable 1, Part 1: Create retirement query
 SELECT e.emp_no,
 e.first_name,
 e.last_name,
@@ -29,7 +29,8 @@ ORDER BY emp_no, to_date DESC;
 SELECT * FROM ret_titles;
 
 -- Deliverable 1, Part 3: Retiring count table
-SELECT title 
+SELECT COUNT(title,
+title 
 INTO title_count
 FROM ret_titles
 GROUP BY title
@@ -38,7 +39,7 @@ ORDER BY COUNT(title) DESC;
 -- Check the table
 SELECT * FROM title_count;
 
--- Deliverable 2, Part 1: eligible employees
+-- Deliverable 2, Part 1: eligible employees query
 SELECT DISTINCT ON (e.emp_no) 
 e.emp_no,
 e.first_name,
@@ -59,3 +60,24 @@ ORDER BY e.emp_no;
 
 -- Check the table
 SELECT * FROM emp_elig;
+
+-- Deliverable 3, Pt. 1: Eligible employees table
+SELECT COUNT(title),
+title
+FROM emp_elig
+GROUP BY title
+ORDER BY COUNT(title) DESC;
+
+-- Deliverable 3, Pt. 1: Employees to target query
+SELECT 
+emp_no,
+first_name,
+last_name,
+hire_date
+INTO referral_list1
+FROM employees
+WHERE (hire_date >= '1990-01-01')
+ORDER BY hire_date DESC;
+
+-- Check the table
+SELECT * FROM referral_list;
